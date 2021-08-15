@@ -48,6 +48,10 @@ a {
   text-decoration: none;
   color: white;
 }
+.nowdev{
+  text-align: center;
+  margin: 20px 0;
+}
 .logo {
   margin: 0 2vw 0 -2vw;
   display: flex;
@@ -67,11 +71,12 @@ a {
   width: 20vw;
   height: 27px;
   border-radius: 5px;
+  transition: all ease-in 0.5s;
 }
-input:hover {
+/* input:hover {
   animation: search 1s ease-in-out 1 both;
   width: 30vw;
-}
+} */
 main {
   min-height: calc(100vh - 80px - 15vh);
 }
