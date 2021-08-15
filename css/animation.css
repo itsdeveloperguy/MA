@@ -1,0 +1,26 @@
+@keyframes button {
+    from{
+      background-color: cornflowerblue;
+      color: white;
+    }
+    to{
+      background-color: white;
+      color: cornflowerblue;
+    }
+  }
+  @keyframes search {
+    from{
+      width: 20vw;
+    }
+    to{
+      width: 30vw;
+    }
+  }
+  @keyframes searchres {
+    from{
+      width: 50vw;
+    }
+    to{
+      width: 80vw;
+    }
+  }
