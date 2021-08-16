@@ -3,7 +3,7 @@
     height: 30vh;
   }
   nav {
-    height: 25vh;
+    height: 190px;
     flex-direction: column;
   }
   .search input {
