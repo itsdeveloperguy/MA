@@ -12,10 +12,16 @@ function dev() {
     devname.innerHTML =
       "WELCOME ! <br> To the Teachers Mode. You have a valid Teacher certificate";
     document.getElementsByClassName("developer")[0].style.display = "none";
+    document.getElementById("book").style.display = "block";
+  } else if (developercheak == "Ravish") {
+    alert("!! You are a Khamba !! ");
+    devname.innerHTML = "WELCOME ! <br> To the Students Mode.";
+    document.getElementsByClassName("developer")[0].style.display = "none";
+  } else if (developercheak == "books") {
+    document.getElementById("book").style.display = "block";
+    devname.innerHTML = "Books links are Created <h2>Sucessfully !! </h2>";
   } else if (confirm("Are you sure you want to switch beta version")) {
-    alert(
-      "You are not a developer We could not find any developer certificate on your device ! "
-    );
+    alert("Please Enter your name");
     document.getElementsByClassName("developer")[0].innerText = "Try again";
   }
 }
