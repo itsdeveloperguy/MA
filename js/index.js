@@ -15,7 +15,7 @@ function dev() {
     document.getElementById("book").style.display = "block";
   } else if (developercheak == "Ravish") {
     alert("!! You are a Khamba !! ");
-    devname.innerHTML = "WELCOME ! <br> To the Students Mode.";
+    devname.innerHTML = "WELCOME Ravish ! <br> Your are a student and a fake developer.";
     document.getElementsByClassName("developer")[0].style.display = "none";
   } else if (developercheak == "books") {
     document.getElementById("book").style.display = "block";
