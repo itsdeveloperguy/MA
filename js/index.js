@@ -44,4 +44,13 @@ function search() {
       document.getElementById("developercheak").style.width = "20vw";
     }
   }
+
+function size(){
+   var size = document.getElementById("developercheak");
+    if (document.getElementById("developercheak").style.width == "20vw") {
+      document.getElementById("developercheak").style.width = "30vw";
+    } else {
+      document.getElementById("developercheak").style.width = "20vw";
+    }
+}
   
