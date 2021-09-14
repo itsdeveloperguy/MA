@@ -46,9 +46,7 @@ function search() {
   }
 
 function size(){
-   var size = document.getElementById("developercheak");
-    if (document.getElementById("developercheak").style.width == "30vw") {
-      document.getElementById("developercheak").style.width = "20vw";
-    }
+if (document.getElementById("developercheak").style.width == "30vw"){
+    var size = document.getElementById("developercheak");
+    document.getElementById("developercheak").style.width = "20vw";
 }
-  
