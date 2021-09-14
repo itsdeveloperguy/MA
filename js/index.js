@@ -37,13 +37,14 @@ function dev(){
     }
 }
 function search() {
-        var size = document.getElementById("developercheak");
-    if (document.getElementById("developercheak").style.width == "20vw") {
-      document.getElementById("developercheak").style.width = "30vw";
-    } else {
-      document.getElementById("developercheak").style.width = "20vw";
-    }
+  // document.getElementById("developercheak").style.width = "30vw"
+  var size = document.getElementById("developercheak");
+  if (document.getElementById("developercheak").style.width == "20vw") {
+    document.getElementById("developercheak").style.width = "30vw";
+  } else {
+    document.getElementById("developercheak").style.width = "20vw";
   }
+}
 
 function size(){
 if (document.getElementById("developercheak").style.width == "30vw"){
