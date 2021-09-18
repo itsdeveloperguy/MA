@@ -68,7 +68,7 @@ body.addEventListener("click", function () {
     document.getElementById("developercheak").style.width = "20vw";
   }
 });
-var th = document.getElementsByTagName("body")[0];
+var th = document.getElementById("developercheak");
 th.addEventListener("click", function () {
   devname.innerHTML = "<h2>Special Thanks to Monica Chopra</h2>";
 });
